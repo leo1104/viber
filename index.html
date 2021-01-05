@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Car</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="font-awesome.min.css" rel="stylesheet" >
+
+    <!--StyleSheet-->
+    <link href="stylesheet.css" rel="stylesheet" >
+    <link href="responsive.css" rel="stylesheet" >
+
+</head>
+<body>
+    <!--top Header-->
+    <div class="header">
+        <div class="container">
+            <div class="col-md-2 logo">
+                <a href="#"><img src="images/logo.png"></a>
+            </div>
+            <div class="col-md-6 col-md-offset-2 top_menu col-xs-12">
+                <ul class="nospace">
+                    <li><a href="#">Login</a> </li>
+                    <li><a href="#"> | </a> </li>
+                    <li><a href="#">Contact</a> </li>
+                    <li><a href="tel: + 91 - 00000999666"><span class="tele "></span> + 91 - 00000999666</a> </li>
+                    <li><a href="mailto:Info@carswebsite.com"><span class="mail"></span> Info@carswebsite.com</a> </li>
+                </ul>
+            </div>
+            <div class="col-md-2 social col-xs-12">
+                <ul class="nospace">
+                    <li><a href="#"><img src="images/g+.png"> </a> </li>
+                    <li><a href="#"><img src="images/twitter.png"> </a> </li>
+                    <li><a href="#"><img src="images/fb.png"> </a> </li>
+                    <li><a href="#"><img src="images/linkin.png"> </a> </li>
+                    <div class="clearfix"></div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Banner strat-->
+    <div class="banner  ">
+        <!--<img src="images/banner.png" class="img-responsive">-->
+        <div class="container">
+            <div class="banner_matter">
+               <!-- <h1 class="nospace">Experience the joy of</h1>
+                <h2 class="nospace">riding on wheels</h2>
+                <h5 class="nospace">Premium car rentals for all occasions</h5>-->
+                <img src="images/banner_content.png">
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="detail">
+               <div id="rootwizard">
+                    <div class="navbar-inner tabbing">
+                        <ul class="nospace">
+                            <li ><a href="#tab1" data-toggle="tab">Outstation</a>   </li>
+                            <li><a href="#tab2" data-toggle="tab">Self Drive</a>  </li>
+                            <div class="clearfix"></div>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content detailForm">
+
+                        <div class="tab-pane equipment" id="tab1">
+
+                            <form class="form">
+                                <div class="radio col-md-12">
+                                    <label class="radio-inline"><input type="radio" name="optradio">Round Trip</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio">One Way</label>
+                                </div>
+                                <div class="radio col-md-6 col-sm-6 col-xs-12">
+
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for="sel1">From</label>
+                                        <select class="form-control" id="sel1" >
+                                            <option>Delhi</option>
+                                            <option>Ludhiana</option>
+                                            <option>chandigarh</option>
+                                            <option>jalandhar</option>
+                                        </select>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for="sel1">Pickup Date</label>
+                                        <input type="text" class="form-control" placeholder="09/05/2015" >
+                                    </div>
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for="sel1">Time</label>
+                                            <input type="text" class="form-control" placeholder="08:00 am" >
+                                    </div>
+                                </div>
+                                <div class="radio col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for="sel1">To</label>
+                                        <select class="form-control" id="sel1">
+                                            <option>Ludhiana</option>
+                                            <option>Delhi</option>
+                                            <option>chandigarh</option>
+                                            <option>jalandhar</option>
+                                        </select>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for="sel1">Pickup Date</label>
+                                        <input type="text" class="form-control" placeholder="09/07/2015" >
+                                    </div>
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for="sel1">Time</label>
+                                        <input type="text" class="form-control" placeholder="12:30 am" >
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-danger">Submit</button>
+                            </form>
+                        </div>
+                        <div class="tab-pane" id="tab2">
+
+                            <form class="form">
+                                <div class="radio col-md-12">
+                                    <label class="radio-inline"><input type="radio" name="optradio">Round Trip</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio">One Way</label>
+                                </div>
+                                <div class="radio col-md-6 col-sm-6 col-xs-12">
+
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for="sel1">From</label>
+                                        <select class="form-control" id="sel1" >
+                                            <option>Delhi</option>
+                                            <option>Ludhiana</option>
+                                            <option>chandigarh</option>
+                                            <option>jalandhar</option>
+                                        </select>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for="sel1">Pickup Date</label>
+                                        <input type="text" class="form-control" placeholder="09/05/2015" >
+                                    </div>
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for="sel1">Time</label>
+                                        <input type="text" class="form-control" placeholder="08:00 am" >
+                                    </div>
+                                </div>
+                                <div class="radio col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for="sel1">To</label>
+                                        <select class="form-control" id="sel1">
+                                            <option>Ludhiana</option>
+                                            <option>Delhi</option>
+                                            <option>chandigarh</option>
+                                            <option>jalandhar</option>
+                                        </select>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for="sel1">Pickup Date</label>
+                                        <input type="text" class="form-control" placeholder="09/07/2015" >
+                                    </div>
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for="sel1">Time</label>
+                                        <input type="text" class="form-control" placeholder="12:30 am" >
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-danger">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <!--Content Start-->
+    <div class="container">
+        <div class="col-md-8 services">
+            <h1 class="nospace">Special Services</h1>
+            <div class="col-md-4  col-sm-6 col-xs-12 box">
+                <img src="images/vip_car.png">
+                <div class="Box_content">VIP Cars</div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 box">
+                <img src="images/custom.png">
+                <div class="Box_content">Custom Solutions</div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 box">
+                <img src="images/employee.png">
+                <div class="Box_content">Employee Transport</div>
+            </div>
+            <div class="col-md-4  col-sm-6 col-xs-12 box">
+                <img src="images/wedding.png">
+                <div class="Box_content">Weddings & Special Events</div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 box">
+                <img src="images/buses.png">
+                <div class="Box_content">Luxury Buses</div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 box">
+                <img src="images/van.png">
+                <div class="Box_content">Luxury Vans</div>
+            </div>
+
+
+        </div>
+        <div class="col-md-4 quick_contact">
+            <h1 class="nospace">Quick Contact</h1>
+            <form class="form-horizontal contactForm " role="form">
+                <div class="form-group t1">
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+
+                </div>
+                <div class="form-group t2">
+                     <input type="text" class="form-control" id="name" placeholder="Email Address">
+
+                </div>
+                <div class="form-group t3">
+                     <input type="text" class="form-control" id="name" placeholder="Mobile Number">
+
+                </div>
+                <div class="form-group t4">
+                    <select class="form-control" id="sel1">
+                            <option>Select Services</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                </div>
+                <div class="form-group t5">
+                   <select class="form-control" id="sel1">
+                            <option>Select Car Type</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                </div>
+                <div class="form-group t6">
+                     <div class="col-md-6 col-sm-6 padding">
+                            <input type="text" class="form-control" id="name" placeholder="Start Date">
+                        </div>
+                        <div class="col-md-6 col-sm-6 padding">
+                            <input type="text" class="form-control" id="name" placeholder="End Date">
+                        </div>
+
+                    </div>
+                <button class="btn btn-primary" type="button">
+                    Submit
+                </button>
+                </div>
+
+
+                </from>
+        </div>
+        <div class="clearfix"></div>
+        <div class="drop_arrow"><a href="#"><img src="images/drop_down.png"></a> </div>
+    </div>
+
+    <!--About Matter-->
+    <div class="about">
+        <div class="container about_matter">
+            <div class="col-md-8" style="padding: 0px;">
+                <div class="detail">
+                    <div id="rootwizard1">
+                        <div class="navbar-inner tabbing">
+                            <ul class="nospace">
+                                <li ><a href="#tab3" data-toggle="tab">About us </a>   </li>
+                                <li><a href="#tab4" data-toggle="tab">Self drive</a>  </li>
+                                <div class="clearfix"></div>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content detailForm">
+                            <div class="tab-pane equipment" id="tab3">
+                                <p class="nospace">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ipsum, aliquet quis ornare nec, venenatis sed diam. Aliquam ut nibh nec odio fermentum pellentesque ut eget nunc. Praesent vestibulum mauris augue, eu rhoncus erat laoreet et. Nam lobortis neque tellus, ac imperdiet mi tempor quis. Pellentesque vel varius elit. Aliquam erat volutpat. Vestibulum placerat ligula quis augue volutpat suscipit. Curabitur lobortis enim orci, eget finibus metus tincidunt in. Vivamus nunc dui, ullamcorper ac enim sit amet, rhoncus dictum eros.
+                                    <br><br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ipsum, aliquet quis ornare nec, venenatis sed diam. Aliquam ut nibh nec odio fermentum pellentesque ut eget nunc. Praesent vestibulum mauris augue, eu rhoncus erat laoreet et. Nam lobortis neque tellus, ac imperdiet mi tempor quis. Pellentesque vel varius elit. Aliquam erat volutpat. Vestibulum placerat ligula quis augue volutpat suscipit. Curabitur lobortis enim orci, eget finibus metus tincidunt in. Vivamus nunc dui, ullamcorper ac enim sit amet, rhoncus dictum eros.</p>
+                            </div>
+                            <div class="tab-pane" id="tab4">
+                                <p class="nospace">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ipsum, aliquet quis ornare nec, venenatis sed diam. Aliquam ut nibh nec odio fermentum pellentesque ut eget nunc. Praesent vestibulum mauris augue, eu rhoncus erat laoreet et. Nam lobortis neque tellus, ac imperdiet mi tempor quis. Pellentesque vel varius elit. Aliquam erat volutpat. Vestibulum placerat ligula quis augue volutpat suscipit. Curabitur lobortis enim orci, eget finibus metus tincidunt in. Vivamus nunc dui, ullamcorper ac enim sit amet, rhoncus dictum eros.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-md-4 testimonial">
+                <h1 class="nospace">Testimonials</h1>
+                <div class="test_matter">
+                    HI Johan, nec ultricies tempor felis. Nulla feugiat a ante eget suscipit. Nullam vel consectetur augue. Donec                           efficitur eu lorem nec eleifend.   nec ultricies tempor felis. Nulla feugiat a ante eget suscipit.
+                    <div class="star_title"><a href="#"> Vestibulum ante ipsum </a> </div>
+                    <div class="star"><img src="images/star.png"> </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="test_matter">
+                    HI Smith, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies tempor felis. Nulla feugiat a
+                    ante eget suscipit. Nullam vel consectetur augue. Donec efficitur eu lorem nec eleifend.  nec ultricies tempor                          felis. Nulla feugiat a ante eget suscipit.
+                    <div class="star_title"><a href="#"> In faucibus orci  </a> </div>
+                    <div class="star"><img src="images/star.png"> </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer Start-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 padding">
+                    <div class="left ftrBox">
+                        <img src="images/wath.png">
+                        <h5 class="nospace">24 hr roadside<br>
+                            assistance</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 padding">
+                    <div class="left ftrBox">
+                        <img src="images/charges.png">
+                        <h5 class="nospace">No hidden<br>
+                            charges</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 padding">
+                    <div class="left ftrBox">
+                        <img src="images/24.png">
+                        <h5 class="nospace">24/7 service in<br>
+                            most airports</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 padding">
+                    <div class="left ftrBox">
+                        <img src="images/car.png">
+                        <h5 class="nospace">Only new<br>
+                            rental cars</h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-3 ftrServices">
+                    <h1 class="nospace">Our Services</h1>
+                    <ul class="nospace">
+                        <li><a href="#">Corporate Traveller</a> </li>
+                        <li><a href="#">   Leisure Traveller</a> </li>
+                        <li><a href="#">    Events, Delegations & Weddings</a> </li>
+                        <li><a href="#">   Travel Agent & Tour operators</a> </li>
+                        <li><a href="#">   Employees Transportation</a> </li>
+                        <li><a href="#">   Spot rentals- Long term or short term</a> </li>
+                        <li><a href="#">    Corporate Leasing</a> </li>
+                        <li><a href="#">   Self Drive</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 car">
+                    <h1 class="nospace">Our Cars</h1>
+                    <div class="col-md-6">
+                        <ul class="nospace">
+                            <li><a href="#">Volkswagen Multivan</a> </li>
+                            <li><a href="#">     Volkswagen Crafter Van</a> </li>
+                            <li><a href="#">     Fiat Ducato Minivan</a> </li>
+                            <li><a href="#">     Nissan Minivan</a> </li>
+                            <li><a href="#">     Mitsubishi Rosa Bus</a> </li>
+                            <li><a href="#">    Tempo Traveller</a> </li>
+                            <li><a href="#">     Luxury Large Bus</a> </li>
+                            <li><a href="#">    Volvo Bus</a> </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 ">
+                        <ul class="nospace">
+                            <li><a href="#">Mercedes Bus</a> </li>
+                            <li><a href="#">   Isuzu Minibus</a> </li>
+                            <li><a href="#">   Minibus for Hire</a> </li>
+                            <li><a href="#">   Exotic Car for Rent</a> </li>
+                            <li><a href="#">    Volkswagen Multivan</a> </li>
+                            <li><a href="#">   Volkswagen Crafter Van</a> </li>
+                            <li><a href="#">   Fiat Ducato Minivan</a> </li>
+                            <li><a href="#">    Nissan Minivan</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 address">
+                    <h1 class="nospace">Contact Us</h1>
+                    For Retail Reservation<br>
+                    Phone :  <a href="tel:+ 91 - 00000999666">+ 91 - 00000999666</a> <br>
+                    Email: s<a href="mailto:ales@carwebsite.com">ales@carwebsite.com</a> <br>
+                    <div class="ftrsocial">
+                        <ul class="nospace">
+                            <li><a href="#"><img src="images/g+.png"> </a> </li>
+                            <li><a href="#"><img src="images/twitter.png"> </a> </li>
+                            <li><a href="#"><img src="images/fb.png"> </a> </li>
+                            <li><a href="#"><img src="images/linkin.png"> </a> </li>
+                            <div class="clearfix"></div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footerBar">
+        <div class="container copy">
+            Copyright &copy 2015, Car Website, All Rights Reserved
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Script Files -->
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.bootstrap.wizard.js"></script>
+    <script src="custom.js"></script>
+
+</body>
+</html>

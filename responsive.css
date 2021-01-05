@@ -1,0 +1,384 @@
+@media only screen and (max-width:1200px) {
+    .Box_content {
+        font-weight: 100;
+        font-size: 16px;
+        color: #f6f6f6;
+        background: rgba(2, 1, 1, 0.7);
+        padding: 7px 0 7px 2px;
+        position: relative;
+        width: 100%;
+        top: -36px;
+    }
+    .car h1 {
+        color: #f5a000;
+        font-size: 30px;
+        font-weight: 100;
+        text-align: center;
+        border-bottom: 1px dotted #f5a000;
+        padding: 25px 0 10px;
+        width: 35%;
+        margin: auto auto 10px;
+        text-transform: uppercase;
+    }
+    .top_menu ul li a {
+        display: block;
+        padding: 8px 7px;
+        color: #FFFFFF;
+    }
+    .social {
+        padding: 30px 0 30px ;
+    }
+    .social ul li {
+        float: left;
+        list-style: none;
+        float: left;
+        list-style: none;
+        display: block;
+        margin: 0 0 0 5px;
+    }
+    .box {
+        padding: 15px 5px;
+        margin-bottom: -30px;
+    }
+    .menu ul li a {
+        display: block;
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 0 27px;
+        color: #fff;
+    }
+    header.sticky .social {
+        padding: 15px 0 10px 5px;
+    }
+
+}
+@media only screen and (max-width:995px) {
+    .logo {
+        margin: auto;
+        text-align: center !important;
+    }
+    .about .tab-content {
+        background: #fff;
+        width: 100%;
+        color: #3e3e3e;
+        border-radius: 10px;
+        margin-left: 0px;
+        padding: 20px 15px;
+        font-size: 15px;
+        line-height: 22px;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+    }
+    .menu ul li a {
+        display: block;
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 0 11px;
+        color: #fff;
+    }
+    .top_menu {
+        line-height: 50px;
+        padding: 0;
+        transition: all 0.3s ease-out 0s;
+    }
+    .social {
+        padding: 14px 0;
+    }
+    .logo img {
+        height: 74px;
+        transition: all 0.3s ease-out 0s;
+    }
+    .menu ul {
+        margin: 10px auto;
+        transition: all 0.3s ease-out 0s;
+    }
+    header.sticky .top_menu {
+        line-height: 26px;
+        padding: 0;
+    }
+    header.sticky .social {
+        padding: 3px 0 10px 5px;
+    }
+
+}
+@media only screen and (max-width:767px){
+
+    .logo {
+        margin: auto;
+        text-align: center !important;
+    }
+    .banner {
+        background: url("../images/banner.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+    }
+    .tab-content {
+        background: rgba(2, 1, 1, 0.8);
+        width: auto;
+        color: #FFFFFF;
+        border-radius: 10px;
+        margin-left: -15px;
+        margin-top: -15px;
+        margin-bottom: 15px;
+    }
+    .banner img {
+        margin: 25px 0 30px;
+        width: 100%;
+    }
+    .banner_matter {
+        text-align: right;
+        position: relative;
+        margin-top: 55px;
+    }
+    .Box_content {
+        font-weight: 100;
+        font-size: 18px;
+        color: #f6f6f6;
+        background: rgba(2, 1, 1, 0.7);
+        padding: 7px 0 7px 15px;
+        position: relative;
+        width: 100%;
+        top: -39px;
+    }
+    .about {
+        background: #f5f5f5;
+        padding: 75px 0;
+    }
+    .about .tab-content {
+        background: #fff;
+        width: 100%;
+        color: #3e3e3e;
+        border-radius: 10px;
+        margin-left: 0px;
+        padding: 20px 15px;
+        font-size: 15px;
+        line-height: 22px;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+    }
+    .car h1 {
+        color: #f5a000;
+        font-size: 30px;
+        font-weight: 100;
+        text-align: left;
+        border-bottom: 1px dotted #f5a000;
+        padding: 25px 0 10px;
+        width: 60%;
+        margin: auto 0 10px;
+        text-transform: uppercase;
+    }
+    .car ul {
+        float: none;
+        list-style: url("../images/icon.png");
+        margin: 10px 0 10px 4px;
+    }
+    .ftrBox {
+        background: #ffcf6f;
+        padding: 10px 15px;
+        border-radius: 0;
+        font-size: 20px;
+        color: #6c4801;
+        width: 100%;
+        margin: 5px 0;
+    }
+    .drop_arrow img {
+        margin: 15px 0 -55px 0;
+    }
+    .padding {
+        padding: 5px 10px;
+    }
+    .box {
+        padding: 15px 5px 0px;
+        margin-bottom: -40px;
+    }
+    .top_menu {
+        padding: 10px 0;
+        line-height: 18px;
+    }
+    .social {
+        padding: 10px 0 20px !important; ;
+    }
+    .quick_contact{
+        padding: 25px 15px 0px 0;
+        clear: both;
+
+    }
+    header.sticky .logo img {
+        width: auto;
+    }
+
+    header {
+        position: relative;
+        font-size: 24px;
+        line-height: 20px;
+        right: 0;
+        left: 0;
+        z-index: 9999;
+        -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
+    .logo img {
+        height: 94px !important;
+    }
+    .header.sticky .logo img {
+        height: 94px !important;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
+    header.sticky .top_menu {
+        padding: 0;
+        line-height: 18px;
+    }
+    .menu{
+        background: #ffb538;
+        border-top: 5px solid #ff9102;
+        padding: 13px 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .car h1 {
+        color: #f5a000;
+        font-size: 30px;
+        font-weight: 100;
+        text-align: left;
+        border-bottom: 1px dotted #f5a000;
+        padding: 25px 0 10px;
+        width: 60%;
+        margin: auto 0 10px;
+        text-transform: uppercase;
+    }
+    .car ul {
+        float: none;
+        list-style: url("../images/icon.png");
+        margin: 10px 0 10px 4px;
+    }
+    .ftrBox {
+        background: #ffcf6f;
+        padding: 10px 15px;
+        border-radius: 0;
+        font-size: 20px;
+        color: #6c4801;
+        width: 100%;
+        margin: 5px 0;
+    }
+    .padding {
+        padding: 5px 10px 0;
+    }
+    .testimonial h1 {
+        color: #de0000;
+        font-size: 35px;
+        font-weight: 100;
+    }
+    .testimonial {
+        background: #FFFFFF;
+        border-radius: 5px;
+        padding: 20px 20px 0;
+        margin: 10px 0 0;
+    }
+    .about .tab-content {
+        background: #fff;
+        width: 100%;
+        color: #3e3e3e;
+        border-radius: 10px;
+        margin-left: 0px;
+        padding: 20px 15px;
+        font-size: 15px;
+        line-height: 22px;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+    }
+    .about {
+        background: #f5f5f5;
+        padding: 65px 0;
+    }
+    .drop_arrow img {
+        margin: 10px 0 -55px 0;
+    }
+    .Box_content {
+        font-weight: 100;
+        font-size: 18px;
+        color: #f6f6f6;
+        background: rgba(2, 1, 1, 0.7);
+        padding: 7px 0 7px 7px;
+        position: relative;
+        width: 100%;
+        top: -39px;
+        z-index: 999;
+    }
+    .services {
+        padding: 15px 15px 0px 0;
+    }
+    .banner {
+        background: url("../images/banner.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+    }
+    .tab-content {
+        background: rgba(2, 1, 1, 0.8);
+        width: auto;
+        color: #FFFFFF;
+        border-radius: 10px;
+        margin-left: -15px;
+        margin-top: -15px;
+        margin-bottom: 15px;
+    }
+    .banner img {
+        margin: 25px 0 30px;
+        width: 100%;
+    }
+    .banner_matter {
+        text-align: right;
+        position: relative;
+        margin-top: 55px;
+    }
+    .box {
+        padding: 15px 5px 0px;
+        margin-bottom: -25px;
+    }
+    .logo {
+        margin: auto;
+        text-align: center !important;
+    }
+    .top_menu {
+        padding: 5px 0;
+        line-height: 18px;
+    }
+    .social {
+        padding: 10px 0 20px !important;
+    }
+    .quick_contact{
+        padding: 25px 15px 0px 0;
+        clear: both;
+
+    }
+    .logo img {
+        height: 94px !important;
+    }
+    .header.sticky .logo img {
+        height: 94px !important;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
+    header.sticky .top_menu {
+        padding: 0;
+        line-height: 18px;
+    }
+    .menu{
+        background: #ffb538;
+        border-top: 5px solid #ff9102;
+        padding: 13px 0px;
+    }
+}
+
