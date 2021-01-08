@@ -1,14 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700,500,200,600,800);
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
 body{
     margin:0;
     padding: 0;
     /*font-family: 'Lato', sans-serif;*/
-    font-family: 'Roboto', sans-serif;
-
+    font-family: 'Quicksand', sans-serif;
+background-color: #222222;
 }
 .left{
     float: left;
@@ -29,14 +29,19 @@ a:hover{
 .logo {
     margin: auto;
     text-align: left;
-    -webkit-transition: all 0.3s ease-out;
+    
+    
+    /* -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; */
 }
 .header{
     background: #171717;
     padding: 5px 0 0;
+    display:flex;
+    justify-content: space-between;
+flex-wrap: wrap;
 }
 .top_menu {
     padding:  0;
@@ -95,7 +100,8 @@ a:hover{
     padding: 2px 13px 5px 14px;
 }
 .banner{
-    background: url("../images/banner.png") no-repeat;
+    background: url("../images/12.png") no-repeat;
+
     background-size: cover;
     background-position: center 0px;
     height: 674px;
@@ -138,7 +144,7 @@ a:hover{
     background: rgba(2, 1, 1, 0.9) !important;
     font-size: 14px !important;
     font-style: normal !important;
-    font-weight: 700 !important;
+    font-weight: 500 !important;
     color: #fdb418 !important;
 }
 #rootwizard .nav>li>a:focus, .nav>li>a:hover {
@@ -146,7 +152,7 @@ a:hover{
     background: rgba(2, 1, 1, 0.9) !important;
     font-size: 14px !important;
     font-style: normal !important;
-    font-weight: 700 !important;
+    font-weight: 500 !important;
     color: #fdb418 !important;
 }
 #rootwizard .nav>li>a {
@@ -156,7 +162,7 @@ a:hover{
     color: #fff;
     background: rgba(2, 1, 1, 0.9);
     text-transform: uppercase;
-    font-weight: 700 !important;
+    font-weight: 500 !important;
 }
 .nav-pills>li+li {
     margin-left: 4px;
@@ -169,7 +175,7 @@ a:hover{
     position: relative;
 }
 .tab-content {
-    background:rgba(2, 1, 1, 0.8) ;
+    background:rgba(0, 0, 0, 0.55);
     width: 100%;
     border-radius: 10px;
     margin-left: -15px;
@@ -216,7 +222,7 @@ a:hover{
     padding: 25px 15px 0px 0;
 }
 .services h1 {
-    color: #444444;
+    color: #3977d7;
     font-size: 32px;
     font-weight: 100;
     margin-bottom: 10px;
@@ -246,7 +252,7 @@ a:hover{
 
 }
 .quick_contact h1{
-    color: #444444;
+    color: #3977d7;
     font-size: 32px;
     font-weight: 100;
     margin-bottom: 24px;
@@ -337,9 +343,9 @@ a:hover{
     padding: 0 0 30px;
 }
 .ftrBox{
-    background: #ffcf6f;
+    background: #B394DB;
     padding: 10px 15px;
-    border-radius: 0 0px 5px 5px;
+    border-radius: 10px;
     font-size: 20px;
     color: #6c4801;
     width: 100%;
@@ -357,7 +363,9 @@ a:hover{
 }
 .padding{
     padding: 0 5px;
+    margin :1rem 0 0 0;
 }
+
 .ftrServices h1{
     color: #f5a000;
     font-size: 30px;
@@ -809,6 +817,18 @@ td.subtitle {
     text-decoration: none;
     line-height: 24px !important;
     border: 6px solid #000;
+}
+.ftrServices,.car,.address{
+    border-right: 1px dashed yellow;
+    margin: 2rem 0 0 0;
+}
+.lgo{
+    width:66%;
+    border-radius: 10rem;
+margin-top: 2rem;
+}
+.logo1{
+    display: flex;
 }
 .tooltip.in {
     opacity: 1;

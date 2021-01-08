@@ -350,7 +350,7 @@
         text-align: center !important;
     }
     .top_menu {
-        padding: 5px 0;
+        padding: 5px 3rem;
         line-height: 18px;
     }
     .social {
@@ -379,6 +379,24 @@
         background: #ffb538;
         border-top: 5px solid #ff9102;
         padding: 13px 0px;
+    }
+    .ftrServices{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .address{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .car{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lgo{
+margin-top: 0;
     }
 }
 
