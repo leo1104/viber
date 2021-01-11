@@ -80,17 +80,17 @@ flex-wrap: wrap;
     margin: 0 0 0 7px;
 }
 .tele{
-    background: url("../images/phone.png") no-repeat;
+    background: url("../images/phone1.png") no-repeat;
     background-position: 1px 1px;
     margin-right: 5px;
-    padding: 2px 13px 5px 14px;
+    padding: 2rem 2.2rem;
 }
 
 .mail{
-    background: url("../images/mail.png") no-repeat;
+    background: url("../images/email1.png") no-repeat;
     background-position: 3px 3px;
     margin-right: 5px;
-    padding: 2px 13px 5px 14px;
+    padding: 2rem 2.2rem;
 }
 .pay{
     background: url("../images/pay.png") no-repeat;
@@ -100,7 +100,6 @@ flex-wrap: wrap;
 }
 .banner{
     background: url("../images/12.png") no-repeat;
-
     background-size: cover;
     background-position: center 0px;
     height: 674px;

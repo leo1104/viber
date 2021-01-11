@@ -20,9 +20,15 @@
         margin: auto auto 10px;
         text-transform: uppercase;
     }
+    .unlist{
+        margin: 0 5rem;
+    }
+    .mar{
+        margin-left: 3rem;
+    }
     .top_menu ul li a {
         display: block;
-        padding: 8px 7px;
+        padding: 2rem 7px;
         color: #FFFFFF;
     }
     .social {
@@ -112,7 +118,7 @@
         text-align: center !important;
     }
     .banner {
-        background: url("../images/banner.png") no-repeat;
+        background: url("../images/12.png") no-repeat;
         background-size: cover;
         background-position: center;
         height: auto;
@@ -178,7 +184,9 @@
         margin: 10px 0 10px 4px;
     }
     .ftrBox {
-        background: #ffcf6f;
+        background: #4776E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8E54E9, #4776E6);
         padding: 10px 15px;
         border-radius: 0;
         font-size: 20px;
@@ -262,7 +270,9 @@
         margin: 10px 0 10px 4px;
     }
     .ftrBox {
-        background: #ffcf6f;
+        background: #4776E6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #8E54E9, #4776E6);
         padding: 10px 15px;
         border-radius: 0;
         font-size: 20px;
@@ -318,7 +328,7 @@
         padding: 15px 15px 0px 0;
     }
     .banner {
-        background: url("../images/banner.png") no-repeat;
+        background: url("../images/12.png") no-repeat;
         background-size: cover;
         background-position: center;
         height: auto;
